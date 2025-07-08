@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diceware Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Diceware Passphrase Generator</h1>
+    <p>Generate secure, easy-to-remember passphrases like Mira Modi!</p>
+
+    <label for="wordCount">Number of words:</label>
+    <input type="number" id="wordCount" min="3" max="10" value="6" />
+    
+    <button onclick="generatePassphrase()">Generate</button>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
